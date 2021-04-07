@@ -298,6 +298,7 @@ header h1 {
 
   /****** panier semaine ******/
   .section3 h3,
+  .section3 h4,
   .section3 em{
 	  text-align: center;
 	  display: block;
@@ -325,6 +326,9 @@ header h1 {
 
 
   @media screen and (max-width: 640px) {
+	  	body{
+			  width: 90vw;
+		  }
 		h1 {
 			font-size: 3rem !important;
 			padding: 150px 100px 100px !important;
@@ -378,11 +382,25 @@ header h1 {
 		.panier h3 {
 			font-size: 1.5rem;
 		}
+		.texte-informatif{
+			margin:10px
+		}
+        .section3 h3{
+			font-size: 1.5rem;
+		}
+		.section3 h4{
+			font-size: 1.2rem;
+		}
         .panier-semaine{
 			margin:20px 0;
 			flex-direction: column;
 			align-items: center;
 		} 
+		.panier-semaine p,
+		.panier-semaine h3{
+			align-items: flex-start;
+	
+		}
 		.legumes,.fruits{
 			padding:  0 10px;
 			margin : 10px;
